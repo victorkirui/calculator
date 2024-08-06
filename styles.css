@@ -1,6 +1,49 @@
-* {
+body {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   background-color: rgb(149, 212, 212);
+}
+#wrapper {
+  max-width: 250px;
+  margin: auto;
+}
+#display-container {
+  background-color: antiquewhite;
+  color: #fff;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+#display-container,
+#btn-container {
+  background-color: rgb(71, 125, 176);
+  padding: 12px;
+  border-radius: 6px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.del,
+.reset {
+  background-color: rgb(40, 108, 154);
+  color: #fff;
+  font-weight: 900;
+}
+.equals {
+  background-color: red;
+  color: #fff;
+  font-weight: 900;
 }
